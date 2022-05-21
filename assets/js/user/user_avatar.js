@@ -35,18 +35,7 @@ $(function () {
             height: 100,
         })
             .toDataURL("image/png");
-        // $.ajax({
-        //     type: 'POST',
-        //     url: '/my/update/avatar',
-        //     data: {
-        //         avatar: dataURL,
-        //     },
-        //     success: (res) => {
-        //         if (res.status !== 0) return layer.msg('头像更新失败！')
-        //         layer.msg('头像更新成功！')
-        //         window.parent.getUserInfo()
-        //     }
-        // })
+        
         $.ajax({
             method: "POST",
             url: "/my/update/avatar",
