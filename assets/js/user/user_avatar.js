@@ -35,7 +35,10 @@ $(function () {
             height: 100,
         })
             .toDataURL("image/png");
+<<<<<<< HEAD
         
+=======
+>>>>>>> article
         $.ajax({
             method: "POST",
             url: "/my/update/avatar",
